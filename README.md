@@ -1,3 +1,3 @@
-# glo-academy
+# tour-plan
 
 Максимка
