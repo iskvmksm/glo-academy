@@ -951,7 +951,7 @@ template {
   .booking {
     width: 100%;
   }
-  .map {
+  #map {
     width: 100%;
   }
 }
