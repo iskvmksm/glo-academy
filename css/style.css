@@ -444,6 +444,10 @@ template {
   color: #333333;
 }
 
+.search__input:focus {
+  outline: none;
+}
+
 .search__button {
   position: absolute;
   top: 0;
@@ -886,6 +890,10 @@ template {
   font-size: 14px;
   line-height: 18px;
   padding-right: 75px;
+}
+
+.subscribe__input:focus {
+  outline: none;
 }
 
 .subscribe__button {
