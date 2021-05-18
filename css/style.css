@@ -1302,6 +1302,7 @@ template {
       flex-basis: 100%;
   margin-bottom: 23px;
   height: 123px;
+  resize: none;
 }
 
 .footer__button {
@@ -1326,15 +1327,15 @@ template {
 }
 
 .footer__politic {
-  margin-right: 0;
-  margin-left: 400px;
-  max-width: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 0;
+  margin-left: 400px;
+  max-width: 750px;
 }
 
 .footer__politic-link {
