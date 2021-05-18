@@ -100,11 +100,11 @@
         grid-column: span 5
         grid-row: 4
     &__button
-       margin-bottom: 56px
+      margin-bottom: 56px
     &__politic
       margin: 0
       justify-content: space-between
-       
+
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -235,7 +235,15 @@
         grid-row: 7
         grid-column: 1
     &__button
+      max-width: 160px
       margin-bottom: 30px
+    &__info
+      padding: 0
+      margin-bottom: 15px
+      order: -1
+      &-wrapper 
+        flex-direction: column
+        flex-wrap: wrap
     &__politic
       flex-wrap: wrap
       &-wrapper
