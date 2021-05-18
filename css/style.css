@@ -1499,6 +1499,9 @@ template {
     -ms-grid-row: 4;
     grid-row: 4;
   }
+  .footer__button {
+    margin-bottom: 56px;
+  }
   .footer__politic {
     margin: 0;
     -webkit-box-pack: justify;
