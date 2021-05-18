@@ -1198,8 +1198,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: start;
-      align-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2 / 4;
@@ -1314,6 +1315,7 @@ template {
   background-color: #EC1F46;
   border-radius: 4px;
   border: none;
+  margin-bottom: 95px;
 }
 
 .footer__info {
@@ -1323,23 +1325,32 @@ template {
   color: #E0E0E0;
 }
 
-.down {
+.footer__politic {
+  margin-right: 0;
+  margin-left: 400px;
+  max-width: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 696px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.down__img-link {
-  right: 0;
+.footer__politic-link {
+  margin-right: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  colr: inherit;
+  line-height: 15px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.down__text-link {
-  font-size: 12px;
-  line-height: 15px;
+.footer__politic-img {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
 }
 
 @media (max-width: 1200px) {
@@ -1362,6 +1373,9 @@ template {
   .footer__input {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+  }
+  .footer__politic {
+    margin-left: 320px;
   }
 }
 
@@ -1483,6 +1497,12 @@ template {
     grid-column: span 5;
     -ms-grid-row: 4;
     grid-row: 4;
+  }
+  .footer__politic {
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -1684,6 +1704,16 @@ template {
     grid-row: 7;
     -ms-grid-column: 1;
     grid-column: 1;
+  }
+  .footer__button {
+    margin-bottom: 30px;
+  }
+  .footer__politic {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__politic-wrapper {
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
