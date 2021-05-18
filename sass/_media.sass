@@ -90,6 +90,7 @@
       grid-column: span 2
     &__legal
       grid-column: span 2
+      margin-left: 80px
     &__additional
       grid-column: span 2
     &__contact
@@ -188,6 +189,9 @@
   .footer
     &__input
       flex-basis: 100%
+    &__logo
+      width: 104px
+    &__legal
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -216,8 +220,12 @@
       grid-column: 1
     &__social
       &-network
+        display: flex
+        flex-direction: column
         grid-row: 2 
         grid-column: 1
+      &-links
+        margin-top: 22px
     &__additional
       grid-row: 3
       grid-column: 1
@@ -227,6 +235,7 @@
     &__legal
       grid-row: 5
       grid-column: 1
+      margin-left: 0
     &__contact
       &-details
         grid-row: 6
