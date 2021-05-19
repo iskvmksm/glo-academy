@@ -1500,7 +1500,6 @@ template {
   }
   .footer__legal {
     grid-column: span 2;
-    margin-left: 80px;
   }
   .footer__additional {
     grid-column: span 2;
@@ -1725,7 +1724,8 @@ template {
     grid-row: 5;
     -ms-grid-column: 1;
     grid-column: 1;
-    margin-left: 0;
+    -ms-grid-column-align: start;
+        justify-self: start;
   }
   .footer__contact-details {
     -ms-grid-row: 6;
