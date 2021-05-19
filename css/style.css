@@ -1181,7 +1181,8 @@ template {
 }
 
 .footer__legal {
-  margin-left: 70px;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .footer__social-links {
