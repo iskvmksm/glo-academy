@@ -1565,6 +1565,9 @@ template {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .navbar__search {
+    margin-left: 0;
+  }
   .navbar-bottom {
     display: none;
     position: fixed;
