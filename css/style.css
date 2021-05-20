@@ -1721,6 +1721,12 @@ template {
 }
 
 @media (max-width: 576px) {
+  .navbar-menu {
+    overflow: scroll;
+  }
+  .navbar-menu__item {
+    width: 245px;
+  }
   .logo {
     width: 99px;
   }
