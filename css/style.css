@@ -1727,7 +1727,7 @@ template {
 }
 
 @media (max-width: 576px) {
-  .navbar-menu {
+  .navbar-bottom {
     overflow: scroll;
   }
   .navbar-menu__item {
