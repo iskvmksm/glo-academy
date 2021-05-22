@@ -1584,6 +1584,7 @@ template {
     padding-top: 30px;
   }
   .navbar-bottom--visible {
+    overflow: scroll;
     display: block;
   }
   .navbar-menu {
@@ -1727,9 +1728,6 @@ template {
 }
 
 @media (max-width: 576px) {
-  .navbar-bottom {
-    overflow: scroll;
-  }
   .navbar-menu__item {
     width: 245px;
     text-align: center;
