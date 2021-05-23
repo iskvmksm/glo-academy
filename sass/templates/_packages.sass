@@ -1,0 +1,150 @@
+img
+  max-width: 110%
+.packages
+  padding: 40px 0 70px 0
+  &-grid
+    display: grid
+    grid-template-columns: repeat(6, 1fr)
+    grid-gap: 30px
+  &__stars
+    margin-bottom: 6px
+    
+  &-title
+    margin: 0 0 65px 0
+    text-align: center
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+  &-open
+    grid-column: span 4
+    display: flex
+    width: 730px
+    border-radius: 8px
+    overflow: hidden
+    height: 500px
+    position: relative
+    &__image
+      min-width: 365px
+    &__info
+      background-color: #0A223D
+      padding: 30px 21px 30px 32px
+      min-height: 250px
+    &__title
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      color: $light
+      margin: 0
+      margin-bottom: 27px
+    &__info
+      display: flex
+      flex-direction: column
+      padding: 46px 21px 35px 43px
+      background-color: #0A223D
+  &__paragraph
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+    color: $light
+    margin: 0
+  &__room
+    margin-top: auto
+  &-block
+    grid-column: span 2
+    display: flex
+    flex-direction: column
+    border-radius: 8px
+    overflow: hidden
+    position: relative
+    &__info
+      background-color: #0A223D
+      padding: 30px 21px 30px 32px
+      min-height: 250px
+    &__image
+      object-fit: cover
+      height: 250px
+  &__flash
+    position: absolute
+    left: 0
+    top: 26px
+    padding: 4px 9px
+    background-color: $primary
+    color: $light
+    font-style: normal
+    font-weight: 600
+    font-size: 8px
+    line-height: 10px
+    border-radius: 0px 4px 4px 0px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    color: $light
+    margin: 0
+    margin-bottom: 23px
+    &__icon
+
+  &__text
+    display: flex
+    margin-bottom: 11px
+    &:nth-child(3)
+      margin-bottom: 24px
+  &__description
+    color: $light
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    margin-left: 14px
+  &__price
+    display: flex
+    flex-direction: column
+    color: $light
+  &__old-price
+    text-decoration: line-through
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    margin-bottom: 5px
+  &__new-price
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+  &__button
+    background-color: $primary
+    color: $light
+    height: 40px
+    min-width: 120px
+    border-radius: 4px
+    border: none
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+    cursor: pointer
+    position: absolute
+    right: 21px
+    bottom: 25px
+    &-open
+      background-color: $primary
+      color: $light
+      height: 40px
+      min-width: 120px
+      border-radius: 4px
+      border: none
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 19px
+      cursor: pointer
+      position: absolute
+      right: 21px
+      bottom: 25px
