@@ -20,7 +20,8 @@
     height: 230px
   .footer
     &__input
-      flex-basis: 100%
+      &-group
+        // flex-basis: 100%
     &__politic
       margin-left: 320px
   
@@ -90,7 +91,8 @@
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 40px
     &__input
-      flex-basis: 49%
+      &-group
+        flex-basis: 49%
     &__logo
       grid-row: 1 / 2
       grid-column: span 2
@@ -252,8 +254,6 @@
     width: 49%
     height: 255px
   .footer
-    &__input
-      flex-basis: 100%
     &__logo
       width: 104px
 @media (max-width: 576px)
@@ -342,5 +342,8 @@
       flex-wrap: wrap
       &-wrapper
         margin-bottom: 10px
+    &__input
+      &-group
+        flex-basis: 100%
       
 
