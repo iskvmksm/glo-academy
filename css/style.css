@@ -1690,7 +1690,7 @@ img {
 }
 
 .modal__info {
-  padding-top: 15px;
+  padding-top: 18px;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -1705,6 +1705,11 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.modal__button {
+  min-width: 160px;
+  padding: 18px 0;
 }
 
 @media (max-width: 1200px) {
