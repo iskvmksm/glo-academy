@@ -53,4 +53,20 @@ $(document).ready(function() {
     modalOverlay.removeClass('modal__overlay--visible');
     modalDialog.removeClass('modal__dialog--visible');
   }
+  var elements = $('.modal__dialog, .modal__overlay');
+
+  $(document).on('keydown', function(e){
+    if(e.which === 27){ // key = esc (27)
+        elements.removeClass('modal__dialog--visible');
+        elements.removeClass('modal__overlay--visible');
+        var home = $.Event("keydown", {keyCode: 36}); //
+        $(document).trigger(home);
+        e.preventDefault();
+        return false;
+      }
+  });
+
+$('.close-modal').click(function(){
+    elements.removeClass('active');
+});
 });
