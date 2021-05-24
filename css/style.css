@@ -861,7 +861,7 @@ template {
 }
 
 img {
-  max-width: none;
+  max-width: 100%;
 }
 
 .packages {
@@ -899,8 +899,12 @@ img {
   width: 730px;
   border-radius: 8px;
   overflow: hidden;
-  height: 500px;
+  min-height: 500px;
   position: relative;
+}
+
+.packages-open__crope {
+  min-height: 503px;
 }
 
 .packages-open__image {
@@ -972,6 +976,8 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 250px;
+  -webkit-transform: translate(0px 150px);
+          transform: translate(0px 150px);
 }
 
 .packages__flash {
@@ -1077,6 +1083,13 @@ img {
   position: absolute;
   right: 21px;
   bottom: 25px;
+}
+
+.packages__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
 }
 
 .newsletter {

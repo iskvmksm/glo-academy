@@ -1,5 +1,5 @@
 img
-  max-width: none
+  max-width: 100%
 .packages
   padding: 40px 0 70px 0
   &-grid
@@ -24,8 +24,10 @@ img
     width: 730px
     border-radius: 8px
     overflow: hidden
-    height: 500px
+    min-height: 500px
     position: relative
+    &__crope
+      min-height: 503px
     &__image
       min-width: 365px
     &__info
@@ -68,6 +70,7 @@ img
     &__image
       object-fit: cover
       height: 250px
+      transform: translate(0px 150px) 
   &__flash
     position: absolute
     left: 0
@@ -88,7 +91,6 @@ img
     color: $light
     margin: 0
     margin-bottom: 23px
-    &__icon
 
   &__text
     display: flex
@@ -149,3 +151,7 @@ img
       position: absolute
       right: 21px
       bottom: 25px
+  &__image
+    width: 100%
+    object-fit: cover
+    height: 250px
