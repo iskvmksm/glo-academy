@@ -44,6 +44,7 @@ img {
 }
 
 label {
+  z-index: 99;
   margin-top: 4px;
   font-size: 11px;
   color: #EC1F46;
@@ -1161,12 +1162,9 @@ img {
   position: relative;
   width: 350px;
   height: 55px;
-  border-radius: 4px;
-  overflow: hidden;
 }
 
 .subscribe__input {
-  position: absolute;
   width: 100%;
   height: 100%;
   border: none;
@@ -1175,6 +1173,7 @@ img {
   font-size: 14px;
   line-height: 18px;
   padding-right: 75px;
+  border-radius: 4px;
 }
 
 .subscribe__input:focus {
@@ -1191,6 +1190,7 @@ img {
   color: #fff;
   min-width: 65px;
   cursor: pointer;
+  border-radius: 0 4px 4px 0;
 }
 
 .subscribe__button:focus {
@@ -1666,15 +1666,11 @@ img {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  -webkit-transform: translateY(0px, 20px);
-          transform: translateY(0px, 20px);
 }
 
 .modal__dialog--visible {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: translateY(20px, 20px);
-          transform: translateY(20px, 20px);
 }
 
 .modal__close {
