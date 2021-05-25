@@ -73,15 +73,16 @@ $('.form').each(function(){
     errorClass: "invalid",
     messages: {
       name: {
-        required: "Укажите имя",
-        minlength: "Имя должно быть не короче 2 букв",
+        required: "Your name",
+        minlength: "Name must be at least 2 letters long",
       },
       email: {
         required: "We need your email address to contact you",
         email: "Your email address must be in the format of name@domain.com"
       },
       phone: {
-        required: "Телефон обязателен",
+        required: "Phone is required",
+        minlength: "Phone number must be at least 11 characters",
       }
     },
   });
