@@ -44,6 +44,7 @@ img {
 }
 
 label {
+  margin-top: 4px;
   font-size: 11px;
   color: #EC1F46;
   border-bottom: 1px solid #EC1F46;
@@ -1568,7 +1569,7 @@ img {
 
 .footer__input-group {
   min-height: 70px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
   bottom: 0;
@@ -1665,11 +1666,15 @@ img {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  -webkit-transform: translateY(0px, 20px);
+          transform: translateY(0px, 20px);
 }
 
 .modal__dialog--visible {
   visibility: visible;
   opacity: 1;
+  -webkit-transform: translateY(20px, 20px);
+          transform: translateY(20px, 20px);
 }
 
 .modal__close {
