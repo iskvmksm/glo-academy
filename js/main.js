@@ -104,6 +104,6 @@ $(document).ready(function() {
     }
   };
 
-  $('.footer__input--callback, .modal__input--callback ').mask('+7 (000) 000-00-00', options);
+  $('.footer__input--callback, .modal__input--callback').mask('+7 (000) 000-00-00', options);
   AOS.init();
 });
