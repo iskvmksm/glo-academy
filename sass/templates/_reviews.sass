@@ -1,5 +1,5 @@
 .reviews
-  padding: 40px 0 70px 0
+  padding: 10px 0 0 0
   &-title
     font-weight: 700
     font-size: 36px
@@ -39,7 +39,7 @@
     &__button
       position: absolute
       top: 50%
-      transform: translateY(-50%)
+      transform: translateY(-150%)
       width: 30px
       height: 30px
       background-repeat: no-repeat
@@ -49,11 +49,14 @@
       background-color: transparent
       cursor: pointer
       z-index: 99
+      padding: 0
       &--prev
         background-image: url(../img/arrow-prev-secondary.svg)
+        margin-left: 20px
       &--next
         background-image: url(../img/arrow-next-secondary.svg)
         right: 0
+        margin-right: 20px
     &__profile
       display: flex
       flex-direction: column
@@ -71,6 +74,7 @@
       font-size: 12px
       line-height: 15px
       color: $primary
+      margin-top: 0
       margin-bottom: 10px
     &__date
       font-size: 10px
