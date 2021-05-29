@@ -30,7 +30,7 @@
       margin-left: 47px
       max-width: 340px
     &-menu
-      padding: 22px 14px
+      padding: 21px 14px
       &__link
         font-size: 12px
         line-height: 15px
@@ -39,6 +39,7 @@
       width: 340px
   .hotel
     padding-bottom: 55px
+    padding-top: 18px
     &-grid
       flex-direction: column
     &-slider
@@ -64,8 +65,23 @@
       margin-bottom: 53px
       font-size: 30px
       line-height: 38px
+  .reviews
+    &-slider
+      &__profile
+        margin-bottom: 31px
+  .reviews
+    &-slider
+      &__button
+        top: 58%
+        &--prev
+          margin-left: 1px
+          background-image: url(../img/arrow-prev-secondary.svg)
+        &--next
+          background-image: url(../img/arrow-next-secondary.svg)
+          margin-right: 1px
+          right: 0
   .activities
-    padding-top: 63px
+    padding-top: 118px
     padding-bottom: 51px
     &-wrapper
       flex-wrap: wrap
@@ -108,6 +124,7 @@
       grid-column: 1 / 3
     &__legal
       grid-column: span 2
+      padding-right: 10px
     &__additional
       padding-left: 10px
       grid-column: span 2
@@ -195,6 +212,7 @@
   .stars
     flex-basis: auto
   .hotel
+    padding-top: 15px
     &-name
       flex-basis: 100%
     &-wrapper
