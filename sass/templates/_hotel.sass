@@ -7,13 +7,15 @@
     justify-content: space-between
     padding-bottom: 20px
     &__name
-      margin-top: 4px
+      margin-top: 0px
       margin-bottom: 0
     &__offer
       margin-left: 14px
       margin-top: 4px
     &__description
       margin: 0px
+      &--mb-2
+        margin-bottom: 20px
   &-name
     font-size: 24px
     line-height: 30px
@@ -92,9 +94,6 @@
   background-color: $primary
   border-radius: 4px
   cursor: pointer
-  &:hover
-      background-color: #701626
-      transition: 0.2s
   &__text
     font-size: 8px
     line-height: 10px
@@ -108,14 +107,14 @@
   border-radius: 8px
   width: 350px
   min-height: 210px
-  padding: 28px
+  padding: 29px 23px
   &__icon
     margin-right: 8px
   &__info
     display: flex
     align-items: flex-start
     justify-content: space-between
-    margin-bottom: 6px
+    margin-bottom: 8px
   &__price
     display: flex
     flex-direction: column
@@ -127,11 +126,11 @@
     font-style: normal
     font-weight: 800
     font-size: 24px
-    line-height: 33px
+    line-height: 32px
   &__per-room
     font-weight: normal
     font-size: 12px
-    line-height: 16px
+    line-height: 15px
   &__room
     margin-top: 4px
   &__text
@@ -177,9 +176,6 @@
     border-radius: 4px
     background-color: $primary
     cursor: pointer
-    &:hover
-      background-color: #701626
-      transition: 0.2s
     &:focus
       outline: none
 .map
