@@ -17,7 +17,7 @@
     position: fixed
     top: 50%
     left: 50%
-    max-width: 478px
+    width: 478px
     padding: 33px 88px
     background-color: $dark
     transform: translate(-50%, -50%)
@@ -56,10 +56,12 @@
     min-height: 123px
     margin-top: 15px
     margin-bottom: 15px
+    resize: none
   &__button
     min-width: 160px
     padding: 18px 0
     margin-right: 15px
+    cursor: pointer
   &__info
     font-weight: 700
     font-size: 12px
@@ -72,5 +74,6 @@
       display: flex
       justify-content: space-between
       align-items: center
+      flex-wrap: wrap
 
     

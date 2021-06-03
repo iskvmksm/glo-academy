@@ -98,6 +98,8 @@
     &__logo
       width: 94px
       padding-top: 2px
+      grid-row: 1 / 2
+      grid-column: 1 / 2
     &-wrapper
       grid-template-columns: 1fr 0.4fr repeat(2, 1.3fr) repeat(2, 1fr)
       grid-row-gap: 42px
@@ -110,9 +112,6 @@
     &__input
       &-group
         flex-basis: 47%
-    &__logo
-      grid-row: 1 / 2
-      grid-column: 1 / 2
     &__social
       &-network
         padding-top: 16px
@@ -146,6 +145,11 @@
     &__info
       &-wrapper
         margin-bottom: 59px
+    &__icon
+      &:nth-child(1)
+        padding-left: 7px      
+      &-wrapper
+        min-width: 45px
 
 @media (max-width: 767px)
   .container
@@ -237,14 +241,6 @@
       flex-direction: column
   .booking
     margin-bottom: 30px
-  .packages
-    &-open
-      min-height: 600px
-    &__button
-      min-width: 100px
-      &-open
-          min-width: 10
-  .booking
     width: 100%
   .map
     width: 100%
@@ -285,6 +281,19 @@
     &__info
       &-wrapper
         margin-bottom: 56px
+  .modal
+    width: 100%
+    height: 100%
+    overflow: scroll
+    &__button
+      margin-bottom: 10px
+    &__dialog
+      max-width: 93%
+      padding: 33px 39px
+      &--visible
+        display: block    
+        overflow: scroll 
+        max-height: 100%  
 @media (max-width: 576px)
   .container
     max-width: 87.5%
@@ -436,15 +445,16 @@
         flex-basis: 100%
 @media ( min-width: 992px)
   .navbar
-    &__link
-      &:hover
-        color: #D77C7C
-        transition: 0.2s
+    &-menu
+      &__link
+        &:hover
+          color: #D77C7C
+          transition: 0.2s
   .search
     &__button
       &:hover
-      background-color: #701626
-      transition: 0.2s
+        background-color: #701626
+        transition: 0.2s
   .booking
     &__button
       &:hover
@@ -485,5 +495,10 @@
     &__email
       &:hover
         color: #D77C7C
+        transition: 0.2s
+  .modal
+    &__button
+      &:hover
+        background-color: #701626
         transition: 0.2s
   

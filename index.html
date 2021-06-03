@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
     rel="stylesheet"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/aos.css"/>
   <link rel="stylesheet" href="css/style.css"/>
@@ -119,7 +121,7 @@
         <!-- /.hotel-info__text -->
         <div data-toggle="modal" class="rating hotel-info__rating">
           <span class="rating__text">User Rattings</span>
-          <span class="rating__counter">4.5/5</span>
+          <span class="rating__counter">4.5/<span class="rating__small">5</span></span>
         </div>
         <!-- /.hotel-info__rating -->
       </div>
@@ -202,7 +204,7 @@
         <span class="newsletter-title__strong">Newsletter</span>
       </h2>
       <form action="send.php" method="POST" class="form subscribe newsletter__subscribe">
-        <input type="email" class="subscribe__input" placeholder="Your email address" name="email" required/>
+        <input type="email" class="input subscribe__input" placeholder="Your email address" name="email" required/>
         <button class="subscribe__button">Send</button>
       </form>
     </div>
@@ -390,21 +392,21 @@
               9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
             </li>
             <li class="footer__item footer__item--mb-2">
-              <div class="footer__icon-wrapper">
+              <div class="footer__icon-wrapper footer__icon-wrapper--pt-6">
                 <img class="footer__icon" src="img/phone-call.svg" alt="icon: phone-call"/>
               </div>
               <div>
                 <span>Tel (business hours) : <a class="footer__tel" href="tel:269-1500"> 269 1500</a> <br/></span>
-                <span>Tel (hotline) Monday - Saturday:<a class="footer__tel" href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 20:00 pm)<br/></span>
-                <span>Tel (hotline) Sunday: <a class="footer__tel" href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 14:00 pm)</span>
+                <span>Tel (hotline) Monday - Saturday:<a class="footer__tel" href="tel:52-56-61-38"> 52&#8209;56&#8209;61&#8209;38</a> (08:00 am – 20:00 pm)<br/></span>
+                <span>Tel (hotline) Sunday: <a class="footer__tel" href="tel:52-56-61-38">52&#8209;56&#8209;61&#8209;38</a> (08:00 am – 14:00 pm)</span>
               </div>
             </li>
             <li class="footer__item footer__item--mb-2">
-              <div class="footer__icon-wrapper">
+              <div class="footer__icon-wrapper footer__icon-wrapper--pt-6">
                 <img class="footer__icon" src="img/email.svg" alt="Icon: email"/>
               </div>
               <a class="footer__email" href="mailto:cherly.lawson@example.com">cherly.lawson@example.com</a>
-            </li>
+            </li> 
           </ul>
         </div>
         <!-- /.footer_contact-details -->
@@ -421,7 +423,7 @@
               <input type="tel" class="footer__input--callback input footer__input" placeholder="Phone Number*" name="phone" required minlength="18"/>
             </div>
             <!-- /.footer__imput-group -->
-            <textarea class=" message footer__message" placeholder="Message" name="message"></textarea>
+            <textarea class="input message footer__message" placeholder="Message" name="message"></textarea>
             <div class="footer__info-wrapper">
               <button class="button footer__button">Send</button>
               <span class="footer__info">* Required Fields</span>
